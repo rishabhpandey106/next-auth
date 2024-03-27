@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
         }
 
         const tokenPayload = {
-            id: user.__id,
+            id: user._id,
             username: user.username,
             email: user.email
         }
